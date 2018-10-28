@@ -6,9 +6,13 @@
 //  Copyright © 2018 Lazar Pešić. All rights reserved.
 //
 
-import Foundation
+import RxSwift
 
 class AppDataManager {
     static let shared = AppDataManager()
+    fileprivate init(){}
+    
+    fileprivate let api = ApiHelper.shared
+    fileprivate let database = DatabaseHelper.shared
     
 }

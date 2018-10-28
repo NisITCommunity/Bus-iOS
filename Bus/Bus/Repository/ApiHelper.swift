@@ -6,13 +6,11 @@
 //  Copyright © 2018 Lazar Pešić. All rights reserved.
 //
 
-import Foundation
-import Alamofire
 import RxSwift
+import Alamofire
 
 class ApiHelper {
     static let shared = ApiHelper()
-    
-    fileprivate let api = ApiHelper.shared
+    fileprivate init(){}
     
 }

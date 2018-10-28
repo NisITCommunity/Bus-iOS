@@ -6,12 +6,11 @@
 //  Copyright © 2018 Lazar Pešić. All rights reserved.
 //
 
-import Foundation
+import RxSwift
 
-class SplashViewModel {
+class LoginVM {
     
     init(){
         
     }
-    
 }
